@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <uses-permission android:name="android.permission.INTERNET"/>
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hackutd.calculate">
 
     <application
         android:allowBackup="true"
@@ -14,12 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculate"
         tools:targetApi="31">
-        <activity
-            android:name=".SavingsGoals"
-            android:exported="false" />
-        <activity
-            android:name=".Dashboard"
-            android:exported="false" />
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -29,6 +24,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".PersonalLoans"
+            android:exported="false" />
+        <activity
+            android:name=".LegalResources"
+            android:exported="false" />
+        <activity
+            android:name=".EmploymentHelp"
+            android:exported="false" />
+        <activity
+            android:name=".LGBTCenterResources"
+            android:exported="false" />
+        <activity
+            android:name=".ResumeHelp"
+            android:exported="false" />
+        <activity
+            android:name=".SavingsGoals"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
     </application>
 
 </manifest>

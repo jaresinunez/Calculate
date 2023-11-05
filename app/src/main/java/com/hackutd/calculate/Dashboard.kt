@@ -33,7 +33,6 @@ class Dashboard : AppCompatActivity() {
             startActivity(dialIntent)
         }
 
-        /*
         btnPR.setOnClickListener {
             startActivity(Intent(this, PersonalLoans::class.java))
         }
@@ -53,7 +52,6 @@ class Dashboard : AppCompatActivity() {
         btnLR.setOnClickListener {
             startActivity(Intent(this, LegalResources::class.java))
         }
-        */
 
         val setUpSavingsButton : Button = findViewById(R.id.setupSavingsButton)
         val creditScoreButton : ImageButton = findViewById(R.id.creditScore)
