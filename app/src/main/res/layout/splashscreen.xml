@@ -17,8 +17,8 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="25dp"
-        android:textAlignment="center"
-        android:src="@drawable/fidelitylogo" />
+        android:src="@drawable/fidelitylogo"
+        android:textAlignment="center" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,6 +29,7 @@
         android:gravity="center"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:textStyle="bold"
         android:text="You are not alone." />
 
     <ProgressBar
