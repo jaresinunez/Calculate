@@ -8,6 +8,7 @@ import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.hackutd.calculate.Globals.CURRENT
@@ -105,15 +106,18 @@ class SavingsGoals : AppCompatActivity() {
         }
 
         learnMore.setOnClickListener {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.fidelity.com/spend-save/fidelity-cash-management-account/overview"))
-            startActivity(browserIntent)
+            val url = "https://www.fidelity.com/spend-save/fidelity-cash-management-account/overview"
+            val uri = Uri.parse(url)
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            // Verify that the intent will resolve to an activity
+            // Verify that the intent will resolve to an activity
+            startActivity(intent)
         }
 
         backButton.setOnClickListener {
             val refresh = Intent(this, Dashboard::class.java)
             startActivity(refresh) //Start the same Activity
             finish() //finish Activity.
-
         }
     }
 }

@@ -57,16 +57,20 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="185sp"
+                    android:layout_width="175sp"
                     android:layout_height="50sp"
                     android:background="@color/green"
                     />
 
-                <ImageView
-                    android:layout_width="185sp"
+                <ImageButton
+                    android:id="@+id/creditScore"
+                    android:layout_width="175sp"
                     android:layout_height="134sp"
                     android:layout_marginTop="15sp"
-                    android:background="@color/green"/>
+                    android:background="@color/green"
+                    android:src="@drawable/credit_score"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="20sp"/>
             </LinearLayout>
         </LinearLayout>
 

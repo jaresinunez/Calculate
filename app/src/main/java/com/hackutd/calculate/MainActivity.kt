@@ -173,8 +173,6 @@ class MainActivity : AppCompatActivity() {
                     solutionField.text = "ERR"
                 code = ""
             } else {
-                // TRANSITION
-                Toast.makeText(this, "CODE MATCH", Toast.LENGTH_LONG).show()
                 val switchActivityIntent = Intent(this, Dashboard::class.java)
                 startActivity(switchActivityIntent)
             }
