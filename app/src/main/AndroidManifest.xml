@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
     package="com.hackutd.calculate">
+=======
+<<<<<<< HEAD
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hackutd.calculate">
+=======
+    xmlns:tools="http://schemas.android.com/tools">
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
+
+    <uses-permission android:name="android.permission.INTERNET" />
+>>>>>>> 49f8182d2019278dfaa08730ab45636b9ce833e4
 
     <application
         android:allowBackup="true"
@@ -13,6 +24,47 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculate"
         tools:targetApi="31">
+<<<<<<< HEAD
+
+        <activity
+            android:name=".PersonalLoans"
+            android:exported="false" />
+        <activity
+            android:name=".LegalResources"
+            android:exported="false" />
+        <activity
+            android:name=".EmploymentHelp"
+            android:exported="false" />
+        <activity
+            android:name=".LGBTCenterResources"
+            android:exported="false" />
+        <activity
+            android:name=".ResumeHelp"
+=======
+<<<<<<< HEAD
+
+
+=======
+        <activity
+            android:name=".Splashscreen"
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
+            android:exported="false" />
+        <activity
+            android:name=".SavingsGoals"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+>>>>>>> 49f8182d2019278dfaa08730ab45636b9ce833e4
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <activity
             android:name=".PersonalLoans"
@@ -35,15 +87,6 @@
         <activity
             android:name=".Dashboard"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

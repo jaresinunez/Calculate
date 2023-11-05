@@ -10,6 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="LGBT Center Resources:"
         android:background="#93c47d"
         android:textSize="25sp"
@@ -64,6 +65,10 @@
         android:layout_height="wrap_content"
         android:text="Youth and Family Support"
         android:textSize="20sp"
+=======
+        android:text="LGBTQ Center Resources:"
+        android:textSize="22sp"
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
         android:layout_marginTop="20sp"
         android:layout_marginHorizontal="20sp"/>
 

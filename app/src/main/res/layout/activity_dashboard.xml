@@ -7,14 +7,31 @@
     android:orientation="vertical"
     tools:context=".Dashboard">
 
+<<<<<<< HEAD
+=======
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:layout_marginTop="20sp"
+            android:textStyle="bold|italic"
+            android:text="Welcome!"
+            android:textSize="30sp" />
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome"
-            android:textSize="22sp"
-            android:layout_marginTop="20sp"
-            android:layout_marginHorizontal="20sp"/>
+            android:layout_marginHorizontal="20sp"
+            android:layout_marginTop="5sp"
+            android:text="You are not alone!"
+            android:textStyle="bold"
+            android:textSize="15sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,7 +55,7 @@
                 android:layout_width="180sp"
                 android:layout_height="200sp"
                 android:text="Set up Savings Goals"
-                android:layout_marginStart="20sp"
+                android:layout_marginStart="15sp"
                 android:textSize="35sp"
                 android:gravity="center"
                 android:shadowColor="@color/green"
@@ -50,54 +67,91 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="15sp"
+                android:layout_marginStart="8sp"
                 android:layout_marginEnd="20sp"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
                 <Button
                     android:id="@+id/btnCall"
                     android:layout_width="match_parent"
                     android:layout_height="50sp"
                     android:background="@color/green"
                     android:text="Need Help Now?" />
+=======
+                <LinearLayout
+                    android:id="@+id/btnCall"
+                    android:layout_width="match_parent"
+                    android:layout_height="55sp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="30sp"
+                        android:layout_height="45sp"
+                        android:src="@drawable/phone_icon"
+                        android:layout_gravity="center"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="55sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/black"
+                        android:gravity="start|center"
+                        android:text="Helpline\n800-799-7233" />
+                </LinearLayout>
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
 
-                <ImageView
-                    android:layout_width="185sp"
+                <ImageButton
+                    android:id="@+id/creditScore"
+                    android:layout_width="175sp"
                     android:layout_height="134sp"
                     android:layout_marginTop="15sp"
-                    android:background="@color/green"/>
+                    android:background="@color/green"
+                    android:src="@drawable/credit_score"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="20sp"/>
             </LinearLayout>
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/stockChart"
             android:layout_width="match_parent"
             android:layout_height="200sp"
             android:layout_marginHorizontal="20sp"
-            android:layout_marginTop="15sp"
-            android:background="@color/green"/>
+            android:src="@drawable/stocks"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Resource Center"
             android:textSize="20sp"
-            android:layout_marginHorizontal="20sp"
-            android:layout_marginTop="15sp"/>
+            android:layout_marginHorizontal="20sp"/>
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_marginStart="20sp"
             android:layout_marginTop="6sp"
+<<<<<<< HEAD
             android:layout_height="190sp">
+=======
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4sp">
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
                 <Button
                     android:id="@+id/btnPR"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
+<<<<<<< HEAD
+=======
+                    android:layout_marginStart="20sp"
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
                     android:text="Personal Loans"
                     android:textSize="13dp"/>
 
@@ -130,7 +184,10 @@
                     android:textSize="12dp"/>
 
             </LinearLayout>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
         </HorizontalScrollView>
 
 </LinearLayout>

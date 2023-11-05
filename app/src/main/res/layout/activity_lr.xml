@@ -10,9 +10,100 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="Legal Resources:"
+=======
+        android:textStyle="bold"
+        android:text="Legal Resources:"
+        android:background="#93c47d"
+        android:textSize="22sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text= "LGBTQ legal resources-"
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
         android:textSize="22sp"
         android:layout_marginTop="20sp"
         android:layout_marginHorizontal="20sp"/>
 
+<<<<<<< HEAD
+=======
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="If you're an LGBTQ+ youth in an unsafe situation, here are some key resources:"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="       - The Trevor Project: A crisis intervention and suicide prevention organization for LGBTQ+ youth. Call 1-866-488-7386 or use their online chat. "
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="       - LGBTQ+ Youth Shelters: Search for local shelters that provide housing and support to at-risk LGBTQ+ youth."
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="       - GLAAD: An advocacy group offering resources and support for LGBTQ+ individuals facing discrimination."
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="       - Lambda Legal: A legal organization specializing in LGBTQ+ rights, providing legal resources and support."
+        android:textSize="14sp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text= "Demostic Abuse legal resources- "
+        android:textSize="22sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="If you or someone you know is experiencing domestic abuse, it's important to seek help and support. Here are legal resources and organizations that can assist with domestic abuse situations:"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="       - National Domestic Violence Hotline: The National Domestic Violence Hotline in the United States provides immediate assistance, support, and resources. Call 1-800-799-SAFE (7233) or TTY 1-800-787-3224. They also offer online chat support."
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="       - Local Domestic Violence Shelters: Search for domestic violence shelters and safe houses in your area. These facilities offer shelter, counseling, and support for victims of domestic abuse."
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="       - Law Enforcement: If you're in immediate danger, call the police. They can assist with emergency protection and safety."
+        android:textSize="14sp" />
+
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
 </LinearLayout>
