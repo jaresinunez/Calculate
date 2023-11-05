@@ -10,8 +10,65 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="LGBT Center Resources:"
+        android:background="#93c47d"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LGBT (Lesbian, Gay, Bisexual, Transgender) centers, also known as LGBTQ+ centers, are community centers that provide resources, support, and services specifically tailored to the LGBTQ+ community. The resources offered by these centers can vary widely depending on the location and the organization running the center. However, common resources and services provided by LGBT centers include but aren't limited to:"
+        android:textSize="14sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Support and Counseling"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Community and Social Events"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health Services"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education and Workshops"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Legal and Advocacy Support"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Youth and Family Support"
+        android:textSize="20sp"
+=======
+        android:text="LGBTQ Center Resources:"
         android:textSize="22sp"
+>>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
         android:layout_marginTop="20sp"
         android:layout_marginHorizontal="20sp"/>
 
