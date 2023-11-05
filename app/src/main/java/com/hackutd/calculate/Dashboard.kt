@@ -93,5 +93,10 @@ class Dashboard : AppCompatActivity() {
             }
             startActivity(webIntent)
         }
+
+        pieChart.setOnClickListener{
+            val switchActivityIntent = Intent(this, SavingsGoals::class.java)
+            startActivity(switchActivityIntent)
+        }
     }
 }
