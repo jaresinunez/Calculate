@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20sp"
-            android:layout_marginTop="20sp"
+            android:layout_marginTop="5sp"
             android:text="You are not alone!"
             android:textStyle="bold"
             android:textSize="15sp" />
@@ -102,7 +102,6 @@
             android:layout_width="match_parent"
             android:layout_height="200sp"
             android:layout_marginHorizontal="20sp"
-            android:layout_marginTop="15sp"
             android:src="@drawable/stocks"/>
 
         <TextView
@@ -110,14 +109,13 @@
             android:layout_height="wrap_content"
             android:text="Resource Center"
             android:textSize="20sp"
-            android:layout_marginHorizontal="20sp"
-            android:layout_marginTop="15sp"/>
+            android:layout_marginHorizontal="20sp"/>
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_marginStart="20sp"
             android:layout_marginTop="6sp"
-            android:layout_height="150sp">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4sp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -127,6 +125,7 @@
                     android:id="@+id/btnPR"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
+                    android:layout_marginStart="20sp"
                     android:text="Personal Loans"
                     android:textSize="13dp"/>
 
