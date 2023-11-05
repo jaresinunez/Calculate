@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import org.w3c.dom.Text
 import kotlin.properties.Delegates
 
@@ -13,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     var selected2 by Delegates.notNull<Int>()
     var solution by Delegates.notNull<Int>()
     lateinit var selection : String
+    var code = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -32,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         val divide : Button = findViewById(R.id.divide)
         val multiply : Button = findViewById(R.id.multiply)
         val evaluate : Button = findViewById(R.id.evaluate)
+        val clear : Button = findViewById(R.id.clear)
 
         val solutionField : TextView = findViewById(R.id.solution)
 
@@ -44,20 +47,140 @@ class MainActivity : AppCompatActivity() {
                 selected2 = 1
                 solutionField.text = selected2.toString()
             }
+            code += "1"
         }
 
-        addition.setOnClickListener {
-            selection = "+"
+        two.setOnClickListener{
+            if (!startedStatement) {
+                selected1 = 2
+                startedStatement = true
+                solutionField.text = selected1.toString()
+            } else {
+                selected2 = 2
+                solutionField.text = selected2.toString()
+            }
+            code += "2"
         }
+
+        three.setOnClickListener{
+            if (!startedStatement) {
+                selected1 = 3
+                startedStatement = true
+                solutionField.text = selected1.toString()
+            } else {
+                selected2 = 3
+                solutionField.text = selected2.toString()
+            }
+            code += "3"
+        }
+
+        four.setOnClickListener{
+            if (!startedStatement) {
+                selected1 = 4
+                startedStatement = true
+                solutionField.text = selected1.toString()
+            } else {
+                selected2 = 4
+                solutionField.text = selected2.toString()
+            }
+            code += "4"
+        }
+
+        five.setOnClickListener{
+            if (!startedStatement) {
+                selected1 = 5
+                startedStatement = true
+                solutionField.text = selected1.toString()
+            } else {
+                selected2 = 5
+                solutionField.text = selected2.toString()
+            }
+            code += "5"
+        }
+
+        six.setOnClickListener{
+            if (!startedStatement) {
+                selected1 = 6
+                startedStatement = true
+                solutionField.text = selected1.toString()
+            } else {
+                selected2 = 6
+                solutionField.text = selected2.toString()
+            }
+            code += "6"
+        }
+
+        seven.setOnClickListener{
+            if (!startedStatement) {
+                selected1 = 7
+                startedStatement = true
+                solutionField.text = selected1.toString()
+            } else {
+                selected2 = 7
+                solutionField.text = selected2.toString()
+            }
+            code += "7"
+        }
+
+        eight.setOnClickListener{
+            if (!startedStatement) {
+                selected1 = 8
+                startedStatement = true
+                solutionField.text = selected1.toString()
+            } else {
+                selected2 = 8
+                solutionField.text = selected2.toString()
+            }
+            code += "8"
+        }
+
+        nine.setOnClickListener{
+            if (!startedStatement) {
+                selected1 = 9
+                startedStatement = true
+                solutionField.text = selected1.toString()
+            } else {
+                selected2 = 9
+                solutionField.text = selected2.toString()
+            }
+            code += "9"
+        }
+
+        zero.setOnClickListener{
+            if (!startedStatement) {
+                selected1 = 0
+                startedStatement = true
+                solutionField.text = selected1.toString()
+            } else {
+                selected2 = 0
+                solutionField.text = selected2.toString()
+            }
+            code += "0"
+        }
+
+        addition.setOnClickListener { selection = "+" }
+        subtract.setOnClickListener { selection = "-" }
+        multiply.setOnClickListener { selection = "X" }
+        divide.setOnClickListener { selection = "/" }
 
         evaluate.setOnClickListener {
-            solution = calculate(selected1, selected2, selection)
-            if (solution.toInt() != Int.MAX_VALUE)
-                solutionField.text = solution.toString()
-            else
-                solutionField.text = "ERR"
+            if (code != "8428") {
+                solution = calculate(selected1, selected2, selection)
+                if (solution != Int.MAX_VALUE)
+                    solutionField.text = solution.toString()
+                else
+                    solutionField.text = "ERR"
+                code = ""
+            } else {
+                // TRANSITION
+                Toast.makeText(this, "CODE MATCH", Toast.LENGTH_LONG).show()
+            }
         }
 
+        clear.setOnClickListener {
+            solutionField.text = ""
+            code = ""
+        }
     }
 
     private fun calculate(selected1: Int, selected2: Int, selection: String): Int {
