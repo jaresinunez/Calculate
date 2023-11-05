@@ -71,11 +71,12 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/stockChart"
             android:layout_width="match_parent"
             android:layout_height="200sp"
             android:layout_marginHorizontal="20sp"
             android:layout_marginTop="15sp"
-            android:background="@color/green"/>
+            android: android:src="@drawable/stocks"/>
 
         <TextView
             android:layout_width="match_parent"
