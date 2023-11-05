@@ -11,8 +11,66 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Personal Loans:"
+        android:textStyle="bold"
+        android:background="#93c47d"
         android:textSize="22sp"
         android:layout_marginTop="20sp"
         android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you're considering a personal loan, here are some tips:"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:text="      -  Evaluate Your Need: Ensure it's necessary and the best option for your financial situation."
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:text="      -  Understand Terms: Read the loan terms carefully, including interest rates and fees."
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:text="      -  Shop Around: Compare offers from different lenders for the best terms."
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:text="      -  Borrow Wisely: Only take what you need and can afford to repay."
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:text="      -  Credit Score: A good credit score can lead to better loan terms."
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:text="      -  Emergency Fund: Consider having one for unexpected expenses."
+        android:textSize="20sp" />
 
 </LinearLayout>
