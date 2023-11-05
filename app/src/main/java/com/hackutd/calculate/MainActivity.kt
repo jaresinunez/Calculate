@@ -1,12 +1,13 @@
 package com.hackutd.calculate
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import org.w3c.dom.Text
+import androidx.appcompat.app.AppCompatActivity
 import kotlin.properties.Delegates
+
 
 class MainActivity : AppCompatActivity() {
     var startedStatement = false
@@ -174,6 +175,8 @@ class MainActivity : AppCompatActivity() {
             } else {
                 // TRANSITION
                 Toast.makeText(this, "CODE MATCH", Toast.LENGTH_LONG).show()
+                val switchActivityIntent = Intent(this, Dashboard::class.java)
+                startActivity(switchActivityIntent)
             }
         }
 
