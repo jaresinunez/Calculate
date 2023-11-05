@@ -10,11 +10,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:text="Legal Resources:"
-=======
         android:textStyle="bold"
-        android:text="Legal Resources:"
         android:background="#93c47d"
         android:textSize="22sp"
         android:layout_marginTop="20sp"
@@ -24,13 +21,10 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:text= "LGBTQ legal resources-"
->>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
         android:textSize="22sp"
         android:layout_marginTop="20sp"
         android:layout_marginHorizontal="20sp"/>
 
-<<<<<<< HEAD
-=======
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -104,6 +98,4 @@
         android:layout_marginHorizontal="20sp"
         android:text="       - Law Enforcement: If you're in immediate danger, call the police. They can assist with emergency protection and safety."
         android:textSize="14sp" />
-
->>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
 </LinearLayout>

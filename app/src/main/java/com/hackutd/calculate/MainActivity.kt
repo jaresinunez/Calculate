@@ -173,7 +173,7 @@ class MainActivity : AppCompatActivity() {
                     solutionField.text = "ERR"
                 code = ""
             } else {
-                val switchActivityIntent = Intent(this, Splashscreen::class.java)
+                val switchActivityIntent = Intent(this@MainActivity, Splashscreen::class.java)
                 startActivity(switchActivityIntent)
             }
         }

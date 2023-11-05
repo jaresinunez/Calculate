@@ -10,17 +10,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-=======
         android:textStyle="bold"
->>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
         android:text="Employment Help:"
         android:textSize="22sp"
         android:layout_marginTop="20sp"
         android:layout_marginHorizontal="20sp"/>
 
-<<<<<<< HEAD
-=======
     <TextView
         android:layout_width="202dp"
         android:layout_height="wrap_content"
@@ -39,6 +34,4 @@
         (LicensedCrisis Clinician)"
         android:textSize="8sp" />
 
-
->>>>>>> 3a72ea44788e9608168e1f45896f724442b23ac2
 </LinearLayout>
