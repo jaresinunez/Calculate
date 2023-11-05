@@ -11,8 +11,95 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Resume Help:"
-        android:textSize="22sp"
+        android:background="#93c47d"
+        android:textSize="25sp"
         android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Be Clear and Concise"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keep your resume clear, concise, and well-organized. Use bullet points and short paragraphs to present information."
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose The Right Format"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use a clean and professional format. Chronological, functional, or combination (hybrid) formats are common choices depending on your work history and skills."
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Information"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Include your name, phone number, email address, and LinkedIn profile (if applicable). Make sure your email address looks professional."
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summary or Objective"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consider including a brief objective or summary statement highlighting your career goals and what you bring to the table. However, this is optional and can be skipped if your experience speaks for itself."
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work Experience"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List your work experience in reverse chronological order (most recent job first).
+Include the company name, your job title, and dates of employment.
+Use bullet points to highlight your key responsibilities and achievements for each position."
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Include your highest level of education, the institution's name, degree earned, and graduation year"
+        android:textSize="15sp"
         android:layout_marginHorizontal="20sp"/>
 
 </LinearLayout>
