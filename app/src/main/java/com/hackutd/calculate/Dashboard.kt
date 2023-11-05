@@ -1,13 +1,19 @@
 package com.hackutd.calculate
 
 import android.content.Intent
+import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.hackutd.calculate.Globals.CURRENT
+import com.hackutd.calculate.Globals.GOAL
+import com.hackutd.calculate.Globals.SETUP
 import org.eazegraph.lib.charts.PieChart
+import org.eazegraph.lib.models.PieModel
 
 class Dashboard : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -79,6 +85,44 @@ class Dashboard : AppCompatActivity() {
                 Intent(Intent.ACTION_VIEW, webpage)
             }
             startActivity(webIntent)
+        }
+
+        if (SETUP){
+            setUpSavingsButton.visibility = View.GONE
+            pieChart.visibility = View.VISIBLE
+        }
+        pieChart.addPieSlice(
+            PieModel(
+                "R", CURRENT,
+                Color.parseColor("#21D375")
+            )
+        )
+        pieChart.addPieSlice(
+            PieModel(
+                "Python", GOAL- CURRENT,
+                Color.parseColor("#FFFFFFFF")
+            )
+        )
+        pieChart.startAnimation()
+
+
+        setUpSavingsButton.setOnClickListener {
+            val switchActivityIntent = Intent(this, SavingsGoals::class.java)
+            startActivity(switchActivityIntent)
+            setUpSavingsButton.visibility = View.GONE
+            pieChart.visibility = View.VISIBLE
+            pieChart.addPieSlice(
+                PieModel(
+                    "R", Globals.CURRENT,
+                    Color.parseColor("#21D375")
+                )
+            )
+            pieChart.addPieSlice(
+                PieModel(
+                    "Python", Globals.GOAL - Globals.CURRENT,
+                    Color.parseColor("#FFFFFFFF")
+                )
+            )
         }
 
         pieChart.setOnClickListener{
